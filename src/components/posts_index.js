@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { fetchPosts } from '../actions';
 
 class PostsIndex extends Component {
-  componentDidMount(){
+  componentDidMount() {
     this.props.fetchPosts();
   }
 
